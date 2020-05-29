@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Coup_de_MathsM</display-name>
+  
+   <servlet>
+    <servlet-name>formAccueil</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>formAccueil</servlet-name>
+    <url-pattern>/accueil</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>form404</servlet-name>
+    <jsp-file>/404.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>form404</servlet-name>
+    <url-pattern>/pageerreur</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>formAzizArash</servlet-name>
+    <jsp-file>/WEB-INF/vue/arashouaziz.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>formAzizArash</servlet-name>
+    <url-pattern>/pageazizarash</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>formliste</servlet-name>
+    <jsp-file>/WEB-INF/vue/listeUtilisateur.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>formliste</servlet-name>
+    <url-pattern>/liste</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>formModif</servlet-name>
+    <jsp-file>/WEB-INF/vue/modifUser.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>formModif</servlet-name>
+    <url-pattern>/modification</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+    <servlet-name>formConnexion</servlet-name>
+    <jsp-file>/WEB-INF/vue/connexion.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>formConnexion</servlet-name>
+    <url-pattern>/connexion</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>formProf</servlet-name>
+    <jsp-file>/WEB-INF/vue/inscriptionProf.jsp</jsp-file>
+  </servlet>
+  
+    
+  <servlet-mapping>
+    <servlet-name>formProf</servlet-name>
+    <url-pattern>/professeur</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>formEtudiant</servlet-name>
+    <jsp-file>/WEB-INF/vue/inscriptionEtudiant.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>formEtudiant</servlet-name>
+    <url-pattern>/etudiant</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

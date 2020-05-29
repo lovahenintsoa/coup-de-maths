@@ -1,0 +1,188 @@
+
+/* initialisation */
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*  metre la police de google font */
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*Header*/
+header{
+
+	display: flex; /* mettre les composants de div en ligne */
+	/* background: lightblue; juste pour visualiser on utilise background*/
+	
+	width: 90%;	/* mettre la largeur en 90% et margin auto regle automatikmnt les marge*/
+	height:15vh;/* c'est comme 15%*/
+	margin: auto;
+	align-items: center;
+	background: #D2DBDA;
+}
+
+.logo-conteneur, .nav-links{
+	display: flex; /* metre en ligne */
+}	
+	
+.logo-conteneur{
+	/*background:#f1c40f; pour les couleur on peut chercher sur uicolor -flat ui color*/
+	flex:1; /* indique la proportion 1,1,1 partage en 3et 1,1,2 le 2 est 2 foisxgrand*/
+}
+.logo-conteneur img{
+	height: 15vh;
+}
+.titre-logo{
+	margin-top: 30px;
+	color:#34495e;
+}
+
+nav{
+	/*background: #8e44ad; enlever apres reperage*/
+	flex:2;
+}
+
+.nav-links{
+	justify-content: space-around;/* mettre un espacement entre les li*/
+	list-style: none;/*enlever les points*/
+}
+
+.inscrit{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+.nav-link{
+	color:#34495e;
+	font-size: 20px;
+	text-decoration: none /* enlever les lignes des liens ATTENTION classe dans a mais pas dans li*/
+}
+/*Header*/
+
+/*Main*/
+section{
+	margin-top: 20px;
+}
+.partie1{
+	display: flex;
+	width: 90%;	/* mettre la largeur en 90% et margin auto regle automatikmnt les marge*/
+
+	margin: auto;
+	align-items: center;
+	
+}
+
+.text1{
+	flex:1;
+}
+.image1{
+	filter:drop-shadow(0px 10px 5px black);
+}
+
+.partie2{
+	display: flex;
+	width: 90%;	/* mettre la largeur en 90% et margin auto regle automatikmnt les marge*/
+
+	margin: auto;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.text2{
+	flex:1;
+}
+.image2{
+	filter:drop-shadow(0px 10px 5px black);
+}
+.partie3{
+	display: flex;
+	width: 90%;	/* mettre la largeur en 90% et margin auto regle automatikmnt les marge*/
+
+	margin: auto;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.text2{
+	flex:1;
+}
+
+.cours h1{
+	font-size:23.5px;
+	font-weight:500;/*largeur du texte*/
+	background:linear-gradient(to right, #ecf0f1,#7f8c8d );/*style degradé*/
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	filter:drop-shadow(0px 2px 1px black);
+}
+
+.listes{
+	list-style: none;/* enlever les puces du liste*/
+}
+
+.liste{
+	color:#34495e;
+	font-size: 18px;
+}
+
+.image1 img{
+	height: 30vh;
+	
+}
+.image2 img{
+	height: 32vh;
+	
+}
+.marge{
+	margin-right: 5em;
+	color: #585772;
+	font-size: 18px;
+
+}
+.texte p{
+	margin-top: 5px;
+	font-size: 18px;
+	color: #585772;
+}
+.titre{
+	color: #585772;
+}
+.btn{
+	padding: 30px 0px 0px 0px;/* top right bottom left*/
+}
+.btnselect{
+	/*border: 2px solid #bdc3c7;
+	background: transparent;*/
+	background:#95a5a6;
+	color: white;
+	font-size:15px;
+	width: 150px;
+	height: 50px;
+	border:none;
+	cursor: pointer;/*mettre le pointeur*/
+}
+
+.eclipse{
+	position: absolute;
+	top:0%;
+	left: 0%;
+	z-index:-1;
+	opacity: 0.7;
+	height: 80%;
+	
+}
+.eclipse1{
+	position: absolute;/*avec ca les propriete top,bottom...indiquent les*/
+	top:60%;/*distances entre les bord de l'element et le bord du bloc*/
+	left:35%; /*% que px pour le rendre responsive*/
+	z-index:-1;/*mettre en arriere plan*/
+	height: 60%;
+	
+}
+
+/*Main*/
+
+	
+	

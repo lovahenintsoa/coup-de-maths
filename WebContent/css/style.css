@@ -1,0 +1,43 @@
+
+.container{
+	height: auto;
+	padding: 10px 0;
+	border-bottom: 1px solid black;
+}
+
+
+.col-lg-9 .combo{
+	width:200px;
+	display: flex;
+	justify-content:space-around;
+	color: #344495e;
+	
+}
+.col-lg-9 .combo label{
+	font-size: 20px;
+	font-style: arial;
+	font-weight: bold;
+}
+
+
+.col-lg-3 .form-group{
+	width:200px;
+	display: flex;
+	justify-content:space-around;
+	
+}
+
+.col-lg-3 .form-group button{
+	background:#34495e;
+	
+}
+
+
+.container .row section
+{
+	border:solid 2px #9b59b6;
+}
+
+.cherche{
+color: #fff;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Inscription </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- LINEARICONS -->
+		<link rel="stylesheet" href="inscription/fonts/linearicons/style.css">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="inscription/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- DATE-PICKER -->
+		<link rel="stylesheet" href="inscription/vendor/date-picker/css/datepicker.min.css">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="inscription/css/style.css">
+		<link rel="stylesheet" href="css/inscription.css">
+		<script type="text/javascript" src="script/essai1.js"></script> 
+	</head>
+	
+
+	
+	<body onload="Masquer()">
+<div class="wrapper">
+
+		<div class="container" id ="tete">
+				<h1 style="text-align: center;font-size: 70px;">Coup_de_Maths</h1>
+				<div class="row">
+						<div class="col-lg-6">
+							<div>
+								<h1>Inscription</h1>
+								<input type="button" class ="boutton" value="Professeur Clicker ici" onClick="ProfInscription()" />
+								<input type="button" class ="boutton" value="Etudiant Clicker ici" onClick="EtudInscription()" />
+							</div>
+						
+						</div>
+						
+						
+						<div class="col-lg-6">
+						
+							<div>
+								<h1>Modification de Profil</h1>
+								<input type="button" class ="boutton" value=" Clicker ici" onClick="Modif()" />
+								
+							
+							</div>
+						
+						</div>
+				</div>
+		</div>
+		
+		
+			<div class="inner" id="fiche">
+				<form action="">
+					<div id ="inscrip">
+						<h3 style="text-align: center;">Fiche d'inscription</h3>
+					</div>
+					<div id ="modif">
+						<h3 style="text-align: center;">Modification</h3>
+					</div>
+					<div class="form-row">
+						<div class="form-wrapper">
+							<label for="">Nom *</label>
+							<input type="text" class="form-control" placeholder="Nom">
+						</div>
+						<div class="form-wrapper">
+							<label for="">Prénom *</label>
+							<input type="text" class="form-control" placeholder="Prénom">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-wrapper" id="datenaiss" >
+							<label for="">Date de Naissance *</label>
+							<span class="lnr lnr-calendar-full"></span>
+							<input type="text" class="form-control datepicker-here" data-language='en' data-date-format="dd M yyyy" id="dp1">
+						</div>
+						<div class="form-wrapper" id="mail">
+						  <label for="">E_mail*</label>
+						  <input type="email" class="form-control"  name="email" id="email" placeholder="Email" required />
+						</div>
+					</div>
+					
+					<div class="form-row last">
+						<div class="form-wrapper" id="pass">
+							<label for="">Mot de Passe*</label>	
+						<input class="form-control" type="password" name="pass" placeholder="Mot de passe">
+							
+						</div>
+						<div class="form-wrapper">
+							<label for="">Niveau*</label>
+							<select name="" id="" class="form-control">
+								<option value="1">6 ème</option>
+								<option value="2">5 ème</option>
+								<option value="3">4 ème</option>
+								<option value="4">3 ème</option>
+								<option value="5">2nd</option>
+								<option value="6">1 ère</option>
+								<option value="6">Terminale</option>
+								<option value="6">L1</option>
+								<option value="6">L2</option>
+								<option value="6">L3</option>
+							</select>
+							<i class="zmdi zmdi-chevron-down"></i>
+						</div>
+					</div>
+					<div class="checkbox" id ="check">
+						<label>
+							<input type="checkbox"> Accepter nos condition d'utilisation
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<button data-text="coup_de_maths">
+						<span>Enregistrer</span>
+					</button>
+				</form>
+			</div>
+		</div>
+		
+		<script src="inscription/js/jquery-3.3.1.min.js"></script>
+
+		<!-- DATE-PICKER -->
+		<script src="inscription/vendor/date-picker/js/datepicker.js"></script>
+		<script src="inscription/vendor/date-picker/js/datepicker.en.js"></script>
+
+		<script src="inscription/js/main.js"></script>
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
